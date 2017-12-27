@@ -1,12 +1,11 @@
 .card {
+        //FUNCTIONALITIES
         position: relative;
         perspective: 150rem;
         -moz-perspective: 150rem;
-        height: 50rem;
+        height: 52rem;
         &__side {
-                color: #fff;
-                font-size: 2rem;
-                height: 50rem;
+                height: 52rem;
                 transition: all .8s ease;
                 position: absolute;
                 top: 0;
@@ -45,7 +44,8 @@
                 -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
                 clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
                 &--1 {
-                        background-image: url(../img/nat-5.jpg);
+                        background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+                        url(../img/nat-5.jpg);
                 }
                 
                 &--2 {
