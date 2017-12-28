@@ -22,6 +22,10 @@
                 &::-webkit-input-placeholder {
                         color: $color-grey-dark-2;
                 }
+
+                &:focus:invalid {
+                        border-bottom: 3px solid $color-secondary-dark;
+                }
         }
 
 
