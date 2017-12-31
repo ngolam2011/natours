@@ -33,7 +33,7 @@
                         transform: translate(-3rem) skewX(0);
                 }
 
-                @supports(clip-path: polygon(0 0) or -webkit-clip-path: polygon(0 0)) {
+                @supports((clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0))) {
                         -webkit-clip-path: circle(50% at 50% 50%);
                         clip-path: circle(50% at 50% 50%);
                         -webkit-shape-outside: circle(50% at 50% 50%);
