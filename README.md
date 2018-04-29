@@ -1,5 +1,5 @@
 # natours
-##Usage
+## Usage
 After clone the project,
 ```
 cd natours
